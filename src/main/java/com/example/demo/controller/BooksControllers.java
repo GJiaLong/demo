@@ -13,4 +13,10 @@ public class BooksControllers {
         System.out.println("book set..." + book);
         return "Method: book save - post";
     }
+
+    @DeleteMapping(value = "/{bId}")
+    public String deleteBook(@PathVariable Integer bId) {
+        System.out.println("book delete..." + bId);
+        return "Method: book delete - deleteMapping";
+    }
 }
