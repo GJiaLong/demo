@@ -6,5 +6,6 @@ public class BooksServers {
         System.out.println("测试分支1");
         System.out.println("测试分支冲突");
         System.out.println("测试分支冲突-hot-fix");
+        System.out.println("测试分支冲突-master");
     }
 }
